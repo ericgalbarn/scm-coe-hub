@@ -2,9 +2,9 @@
 
 **Production-grade analytical solution bridging SAP ERP transactional data with executive S&OP decision-making.**
 
-Status: In Progress
-Sprint: 1
-BigQuery
+![Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
+![Sprint: 2](https://img.shields.io/badge/sprint-2%2F10-blue)
+![BigQuery](https://img.shields.io/badge/bigquery-385K%20rows-green)
 
 ---
 
@@ -55,7 +55,10 @@ scm-coe-hub/
 │   ├── 04_fact_purchase_order.sql
 │   ├── 05_fact_daily_inventory.sql
 │   └── 06_verify_table_creation.sql
-├── python/                     # Python utilities (coming Sprint 2)
+├── python/                     # Data generation & ETL
+│   ├── generate_data.py        # Synthetic data generator
+│   ├── load_to_bigquery.py     # BigQuery loader
+│   └── utils/                  # Shared utilities
 ├── img/                        # Architecture & formula images
 ├── README.md
 └── requirements.txt
@@ -71,7 +74,7 @@ scm-coe-hub/
 | Sprint | Week | Goal                                   | Status |
 | ------ | ---- | -------------------------------------- | ------ |
 | **1**  | 1    | BigQuery Schema Setup                  | ✅ Done |
-| 2      | 2    | Synthetic Data Engine                  | ⬜ Next |
+| **2**      | 2    | Synthetic Data Engine              | ✅ Done |
 | 3      | 3-4  | Tab 1 - Executive Dashboard (MVP)      | ⬜      |
 | 4      | 5    | Tab 2 - Americas Regional View         | ⬜      |
 | 5      | 6    | Tab 3 - Europe Regional View           | ⬜      |
