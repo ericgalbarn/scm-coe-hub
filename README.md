@@ -3,7 +3,7 @@
 **Production-grade analytical solution bridging SAP ERP transactional data with executive S&OP decision-making.**
 
 ![Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
-![Sprint: 3](https://img.shields.io/badge/sprint-3%2F10-blue)
+![Sprint: 4](https://img.shields.io/badge/sprint-4%2F10-blue)
 ![BigQuery](https://img.shields.io/badge/bigquery-385K%20rows-green)
 ![Looker Studio](https://img.shields.io/badge/dashboard-looker%20studio-blue)
 
@@ -56,6 +56,8 @@ scm-coe-hub/
 │   ├── 04_fact_purchase_order.sql
 │   ├── 05_fact_daily_inventory.sql
 │   └── 06_verify_table_creation.sql
+│   ├── 07_kpi_views.sql              # Sprint 3: KPI analytics views
+│   └── 08_americas_views.sql         # Sprint 4: Americas analytics views
 ├── python/                     # Data generation & ETL
 │   ├── generate_data.py        # Synthetic data generator
 │   ├── load_to_bigquery.py     # BigQuery loader
@@ -77,7 +79,7 @@ scm-coe-hub/
 | **1**  | 1    | BigQuery Schema Setup                  | ✅ Done |
 | **2**  | 2    | Synthetic Data Engine                  | ✅ Done |
 | **3**  | 3-4  | Tab 1 - Executive Dashboard (MVP)      | ✅ Done |
-| 4      | 5    | Tab 2 - Americas Regional View         | ⬜      |
+| **4**  | 5    | Tab 2 - Americas Regional View         | ✅ Done |
 | 5      | 6    | Tab 3 - Europe Regional View           | ⬜      |
 | 6      | 7    | Tab 4 - S&OP Alignment + Google Sheets | ⬜      |
 | 7      | 8    | Automation + SOP Documentation         | ⬜      |
@@ -142,10 +144,20 @@ scm-coe-hub/
 
 
 
-## 🔍 Key Insights (from current data)
+## 🔍 Key Insights (Tab 1 - Executive Overview)
 
 - **OTIF (88.59% vs 95% Target):** APAC & Europe miss target in peak months; vendor lead time review needed for CN01, VN01
 - **Inventory Value ($70.0M):** Above target; US03 (Dallas) & UK01 (London) holding excess
 - **Backorder Rate (13.49%):** Americas Oct 2024 spike (21.5%) during peak season → buffer stock adjustment required
 - **Inventory Turns (442.3x):** Synthetic data calibration pending; formula validated for real SAP data
 
+---
+
+## 🔍 Americas Key Insights (Tab 2 - Sprint 4)
+
+| Finding | Action |
+|---------|--------|
+| Valves M70, Bath Fixtures 89, Ceramics 30 have highest risk scores | Increase safety stock 1.5×, renegotiate supplier lead times |
+| Chicago Mfg & Sao Paulo DC account for 60% of critical SKUs | Expedite POs for Chicago; transfer stock from US01 to BR01 |
+| Brazil tariff 35% vs US 25% (10% gap) | Consider BR price increase or local sourcing in South America |
+| Bath Fixtures have highest landed cost across all components | Negotiate freight rates, increase MOQ; push Pipes Fittings sales |
