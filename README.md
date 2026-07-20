@@ -2,9 +2,10 @@
 
 **Production-grade analytical solution bridging SAP ERP transactional data with executive S&OP decision-making.**
 
-Status: In Progress
-Sprint: 2
-BigQuery
+![Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
+![Sprint: 3](https://img.shields.io/badge/sprint-3%2F10-blue)
+![BigQuery](https://img.shields.io/badge/bigquery-385K%20rows-green)
+![Looker Studio](https://img.shields.io/badge/dashboard-looker%20studio-blue)
 
 ---
 
