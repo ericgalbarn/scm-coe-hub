@@ -2,9 +2,9 @@
 
 **Production-grade analytical solution bridging SAP ERP transactional data with executive S&OP decision-making.**
 
-![Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
-![Sprint: 2](https://img.shields.io/badge/sprint-2%2F10-blue)
-![BigQuery](https://img.shields.io/badge/bigquery-385K%20rows-green)
+Status: In Progress
+Sprint: 2
+BigQuery
 
 ---
 
@@ -74,8 +74,8 @@ scm-coe-hub/
 | Sprint | Week | Goal                                   | Status |
 | ------ | ---- | -------------------------------------- | ------ |
 | **1**  | 1    | BigQuery Schema Setup                  | ✅ Done |
-| **2**      | 2    | Synthetic Data Engine              | ✅ Done |
-| 3      | 3-4  | Tab 1 - Executive Dashboard (MVP)      | ⬜      |
+| **2**  | 2    | Synthetic Data Engine                  | ✅ Done |
+| **3**  | 3-4  | Tab 1 - Executive Dashboard (MVP)      | ✅ Done |
 | 4      | 5    | Tab 2 - Americas Regional View         | ⬜      |
 | 5      | 6    | Tab 3 - Europe Regional View           | ⬜      |
 | 6      | 7    | Tab 4 - S&OP Alignment + Google Sheets | ⬜      |
@@ -113,5 +113,38 @@ scm-coe-hub/
 | `dim_region_plant` | `region, country`   | T001W, T001       |
 
 
+
+
+### Analytics Views (Sprint 3)
+
+
+| View                | Purpose                          |
+| ------------------- | -------------------------------- |
+| `v_otif_summary`    | OTIF% by region, plant, month    |
+| `v_inventory_value` | Current inventory value by plant |
+| `v_backorder_rate`  | Backorder rate by region, month  |
+| `v_inventory_turns` | Annualized inventory turns       |
+| `v_monthly_trend`   | Combined monthly KPI trends      |
+
+
 ---
+
+
+
+## 📸 Dashboard Preview (Sprint 3)
+
+**Tab 1 - Executive Overview:** OTIF%, Inventory Value, Backorder Rate, Inventory Turns with global plant map and regional trend analysis.
+
+🔗 [View Dashboard](https://datastudio.google.com/reporting/2a2f993e-fe61-44c1-9e3a-cf3774d49826)
+
+---
+
+
+
+## 🔍 Key Insights (from current data)
+
+- **OTIF (88.59% vs 95% Target):** APAC & Europe miss target in peak months; vendor lead time review needed for CN01, VN01
+- **Inventory Value ($70.0M):** Above target; US03 (Dallas) & UK01 (London) holding excess
+- **Backorder Rate (13.49%):** Americas Oct 2024 spike (21.5%) during peak season → buffer stock adjustment required
+- **Inventory Turns (442.3x):** Synthetic data calibration pending; formula validated for real SAP data
 
