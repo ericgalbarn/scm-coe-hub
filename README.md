@@ -3,7 +3,7 @@
 **Production-grade analytical solution bridging SAP ERP transactional data with executive S&OP decision-making.**
 
 ![Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
-![Sprint: 4](https://img.shields.io/badge/sprint-4%2F10-blue)
+![Sprint: 5](https://img.shields.io/badge/sprint-5%2F10-blue)
 ![BigQuery](https://img.shields.io/badge/bigquery-385K%20rows-green)
 ![Looker Studio](https://img.shields.io/badge/dashboard-looker%20studio-blue)
 
@@ -58,6 +58,7 @@ scm-coe-hub/
 │   └── 06_verify_table_creation.sql
 │   ├── 07_kpi_views.sql              # Sprint 3: KPI analytics views
 │   └── 08_americas_views.sql         # Sprint 4: Americas analytics views
+│   └── 09_europe_views.sql          # Sprint 5: Europe analytics views
 ├── python/                     # Data generation & ETL
 │   ├── generate_data.py        # Synthetic data generator
 │   ├── load_to_bigquery.py     # BigQuery loader
@@ -80,7 +81,7 @@ scm-coe-hub/
 | **2**  | 2    | Synthetic Data Engine                  | ✅ Done |
 | **3**  | 3-4  | Tab 1 - Executive Dashboard (MVP)      | ✅ Done |
 | **4**  | 5    | Tab 2 - Americas Regional View         | ✅ Done |
-| 5      | 6    | Tab 3 - Europe Regional View           | ⬜      |
+| **5**  | 6    | Tab 3 - Europe Regional View           | ✅ Done |
 | 6      | 7    | Tab 4 - S&OP Alignment + Google Sheets | ⬜      |
 | 7      | 8    | Automation + SOP Documentation         | ⬜      |
 | 8      | 9    | Testing & UAT                          | ⬜      |
