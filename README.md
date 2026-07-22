@@ -100,7 +100,6 @@ A global building materials and home fixtures company operates across **15 plant
 | Data Warehouse | **Google BigQuery** | Native integration with BI tools, serverless scaling, partition pruning |
 | BI / Visualization | **Looker Studio** | Native BigQuery connector, free, Google Sheets integration for planner workflows |
 | ETL / Data Gen | **Python** (pandas, numpy) | Programmatic data generation with realistic SAP patterns |
-| Source Data Model | **SAP ERP** | Standard tables: VBAK, VBAP, EKKO, EKPO, MARD, MARA, T001W |
 | Collaboration | **Google Sheets** | Planner safety stock overrides synced to BigQuery |
 
 
@@ -159,7 +158,6 @@ scm-coe-hub/
 | Skill | Evidence in Project |
 |-------|---------------------|
 | **S&OP Domain Knowledge** | Safety Stock modeling, OTIF calculation, Days of Supply, Inventory Turns, Capacity Planning |
-| **SAP Functional Knowledge** | Direct mapping from VBAK/EKKO/MARD to analytics schema, understanding of STO (ME21N) |
 | **SQL Proficiency** | 13 views with CTEs, Window Functions, statistical functions (STDDEV, CORR), conditional logic |
 | **BI Tool Experience** | 4-tab Looker Studio dashboard with filters, conditional formatting, calculated fields |
 | **Data Modeling** | Star Schema design, partitioning, clustering, SCD Type 1 dimensions |
