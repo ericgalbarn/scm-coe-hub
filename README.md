@@ -69,27 +69,39 @@ A global building materials and home fixtures company operates across **15 plant
 | **Europe Region** | Fulfillment & Inventory Lead | Vendor Delivery Performance, Slow-Moving Stock Screening (>180 days), Approved Reallocation Proposals |
 | **S&OP Alignment** | S&OP Committee, Schedulers | Capacity Utilization Heatmap, Demand vs Capacity by Category, Forecast Accuracy Tracking |
 
-### 12 Actionable Insights Generated
+### 12 Actionable Insights with Owners
 
-**Executive Level:**
-1. US holds 21% of global inventory ($14.7M) — concentration risk identified
-2. October is a recurring "OTIF black hole" — Americas 80%, APAC 74%
-3. APAC supply chain shows "roller-coaster" instability — 19-point OTIF swing in 1 month
+#### Executive Level (VP Supply Chain, COO)
 
-**Americas Region:**
-4. Chicago Manufacturing Plant: #1 critical facility (24.8% of stockout-risk SKUs)
-5. Brazil tariff (35%) creates 10% cost disadvantage vs US — margin at risk
-6. Bath Fixtures is the "problem child" category — highest cost, tariff, freight, and risk score
+| # | Insight | Owner | Action |
+|---|---------|-------|--------|
+| 1 | US holds 21% of global inventory ($14.7M) — concentration risk | VP Supply Chain | Commission inventory mix audit. Mandate reallocation evaluation to MX within 30 days |
+| 2 | October is a recurring "OTIF black hole" — Americas 80%, APAC 74% | VP Supply Chain + Regional Leads | Mandate pre-build from August. Add "October Readiness" to September S&OP agenda |
+| 3 | APAC shows "roller-coaster" instability — 19-point OTIF swing in 1 month | APAC Planning Lead | Supplier diversification review within 60 days. Map single points of failure |
 
-**Europe Region:**
-7. VEND0015: systemic vendor failure — 80%+ late rate across multiple plants
-8. €6.2M trapped in slow-moving stock across 3 German/Italian plants
-9. Milan → Munich reallocation: $11.3K savings on a single SKU transfer
+#### Americas Region (Americas Planning Lead)
 
-**S&OP Alignment:**
-10. Bath Fixtures: only category with capacity deficit (19.5% gap)
-11. 70% of manufacturing capacity is under-utilized — significant idle resources
-12. July 2025 forecast: all 3 regions under-forecasted (APAC +51.4%)
+| # | Insight | Owner | Action |
+|---|---------|-------|--------|
+| 4 | Chicago Mfg: #1 critical facility (24.8% of stockout-risk SKUs) | Americas Supply Planner | Expedite all pending POs within 7 days. Coordinate stock transfer from Atlanta DC |
+| 5 | Brazil tariff (35%) vs US (25%) — 10% margin disadvantage | Americas Demand Planner + Finance | Run Brazil profitability analysis within 30 days. Present pricing vs sourcing options |
+| 6 | Bath Fixtures: highest cost, tariff, freight, and risk score | Americas Category Manager | Negotiate freight rates within 14 days. Present product mix optimization proposal |
+
+#### Europe Region (European Fulfillment & Inventory Lead)
+
+| # | Insight | Owner | Action |
+|---|---------|-------|--------|
+| 7 | VEND0015: 80%+ late rate across multiple plants | Europe Procurement Lead | Issue performance review within 7 days. Shift volume to VEND0019 (0% late benchmark) |
+| 8 | €6.2M trapped in slow-moving stock (3 plants) | Europe Inventory Lead | Munich: launch liquidation within 30 days. Milan: audit production planning mix |
+| 9 | Milan → Munich reallocation: $11.3K savings per transfer | Europe Logistics Lead | Execute STO (ME21N) this week. Batch with reverse transfer. Combined savings: ~$21.6K |
+
+#### S&OP Committee (Cross-Functional)
+
+| # | Insight | Owner | Action |
+|---|---------|-------|--------|
+| 10 | Bath Fixtures: only category with capacity deficit (19.5% gap) | Master Scheduler + Category Manager | Evaluate overtime vs outsourcing vs demand adjustment. Present cost-benefit at next S&OP |
+| 11 | 70% of manufacturing capacity is under-utilized | COO + Plant Managers | Assess line flexibility for Bath Fixtures conversion. Explore contract manufacturing |
+| 12 | July 2025 forecast: all regions under-forecasted (APAC +51.4%) | Demand Planning Lead (All Regions) | Emergency forecast review within 48 hours. Close process gap that made June accurate but July fail |
 
 ---
 
